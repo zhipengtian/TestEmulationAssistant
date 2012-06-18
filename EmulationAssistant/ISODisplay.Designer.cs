@@ -45,6 +45,7 @@
 			this.launchVM = new System.Windows.Forms.Button();
 			this.VMLocation = new System.Windows.Forms.Label();
 			this.VMLocationBox = new System.Windows.Forms.TextBox();
+			this.vmloc = new System.Windows.Forms.OpenFileDialog();
 			((System.ComponentModel.ISupportInitialize)(this.CDDisplay)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
 			this.SuspendLayout();
@@ -107,7 +108,7 @@
 			// XmlUrlBox
 			// 
 			this.XmlUrlBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.XmlUrlBox.Location = new System.Drawing.Point(890, 41);
+			this.XmlUrlBox.Location = new System.Drawing.Point(893, 41);
 			this.XmlUrlBox.Name = "XmlUrlBox";
 			this.XmlUrlBox.Size = new System.Drawing.Size(197, 20);
 			this.XmlUrlBox.TabIndex = 1;
@@ -130,7 +131,7 @@
 			// IsoLocationBox
 			// 
 			this.IsoLocationBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.IsoLocationBox.Location = new System.Drawing.Point(890, 113);
+			this.IsoLocationBox.Location = new System.Drawing.Point(890, 118);
 			this.IsoLocationBox.Name = "IsoLocationBox";
 			this.IsoLocationBox.Size = new System.Drawing.Size(197, 20);
 			this.IsoLocationBox.TabIndex = 3;
@@ -138,7 +139,7 @@
 			// ScriptLocationBox
 			// 
 			this.ScriptLocationBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.ScriptLocationBox.Location = new System.Drawing.Point(890, 161);
+			this.ScriptLocationBox.Location = new System.Drawing.Point(890, 166);
 			this.ScriptLocationBox.Name = "ScriptLocationBox";
 			this.ScriptLocationBox.Size = new System.Drawing.Size(197, 20);
 			this.ScriptLocationBox.TabIndex = 4;
@@ -157,7 +158,7 @@
 			// 
 			this.IsoLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.IsoLocation.AutoSize = true;
-			this.IsoLocation.Location = new System.Drawing.Point(887, 97);
+			this.IsoLocation.Location = new System.Drawing.Point(887, 102);
 			this.IsoLocation.Name = "IsoLocation";
 			this.IsoLocation.Size = new System.Drawing.Size(69, 13);
 			this.IsoLocation.TabIndex = 6;
@@ -167,7 +168,7 @@
 			// 
 			this.ScriptLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.ScriptLocation.AutoSize = true;
-			this.ScriptLocation.Location = new System.Drawing.Point(887, 145);
+			this.ScriptLocation.Location = new System.Drawing.Point(887, 150);
 			this.ScriptLocation.Name = "ScriptLocation";
 			this.ScriptLocation.Size = new System.Drawing.Size(109, 13);
 			this.ScriptLocation.TabIndex = 7;
@@ -189,7 +190,7 @@
 			// 
 			this.VMLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.VMLocation.AutoSize = true;
-			this.VMLocation.Location = new System.Drawing.Point(890, 198);
+			this.VMLocation.Location = new System.Drawing.Point(890, 203);
 			this.VMLocation.Name = "VMLocation";
 			this.VMLocation.Size = new System.Drawing.Size(124, 13);
 			this.VMLocation.TabIndex = 9;
@@ -198,10 +199,11 @@
 			// VMLocationBox
 			// 
 			this.VMLocationBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.VMLocationBox.Location = new System.Drawing.Point(890, 215);
+			this.VMLocationBox.Location = new System.Drawing.Point(890, 220);
 			this.VMLocationBox.Name = "VMLocationBox";
 			this.VMLocationBox.Size = new System.Drawing.Size(197, 20);
 			this.VMLocationBox.TabIndex = 10;
+			this.VMLocationBox.Click += new System.EventHandler(this.VMLocationBox_Click);
 			// 
 			// ISODisplay
 			// 
@@ -247,5 +249,6 @@
 		private System.Windows.Forms.TextBox IsoLocationBox;
 		private System.Windows.Forms.TextBox VMLocationBox;
 		private System.Windows.Forms.Label VMLocation;
+		private System.Windows.Forms.OpenFileDialog vmloc;
 	}
 }

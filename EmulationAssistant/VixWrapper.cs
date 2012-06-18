@@ -83,7 +83,7 @@ namespace EmulationAssistant
 
             m_vixError = jobHandle.Wait(propertyIds, ref results);
 
-			if (m_vixError == VixCOM.Constants.VIX_OK)
+			if (vixLib.ErrorIndicatesSuccess(m_vixError))
 			{
 				object[] objectArray = (object[])results;
 				m_vmHandle = (VixCOM.IVM)objectArray[0];

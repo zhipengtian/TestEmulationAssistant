@@ -38,6 +38,7 @@ namespace EmulationAssistant
 			{
 				return;
 			}
+			
 			if (!vmware.Open(IsoLocationBox.Text))
 			{
 				return;
@@ -45,6 +46,14 @@ namespace EmulationAssistant
 			//vmware.RevertToLastSnapshot();
 			if (!vmware.PowerOn())
 			{
+			}
+		}
+
+		private void VMLocationBox_Click(object sender, EventArgs e)
+		{
+			if (vmloc.ShowDialog() == DialogResult.OK)
+			{
+				VMLocationBox.Text = vmloc.FileName;
 			}
 		}
 	}
