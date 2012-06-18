@@ -68,27 +68,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfirmForm.cs">
+    <Compile Include="CDInfo.cs" />
+    <Compile Include="ISODisplay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConfirmForm.Designer.cs">
-      <DependentUpon>ConfirmForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PathsForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PathsForm.Designer.cs">
-      <DependentUpon>PathsForm.cs</DependentUpon>
+    <Compile Include="ISODisplay.Designer.cs">
+      <DependentUpon>ISODisplay.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ConfirmForm.resx">
-      <DependentUpon>ConfirmForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PathsForm.resx">
-      <DependentUpon>PathsForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
+    <EmbeddedResource Include="ISODisplay.resx">
+      <DependentUpon>ISODisplay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

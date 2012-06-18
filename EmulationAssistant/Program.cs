@@ -10,7 +10,7 @@ Copyright 2007 Indiana University Research and Technology Corporation Licensed u
 using System;
 using System.Windows.Forms;
 
-namespace AFSBrowser {
+namespace EmulationAssistant {
     static class Program {
         /// <summary>
         /// The main entry point for the application.
@@ -19,7 +19,7 @@ namespace AFSBrowser {
         [STAThread]
         static void Main(string[] args) {
             // If length of args is not one, either none or too many arguments were passed through.
-            if(args.Length != 1) {
+            /*if(args.Length != 1) {
                 // If length of args > 1, too many arguments have been passed. A message is displayed.
                 if(args.Length > 1) {
                     MessageBox.Show("Emulate assist only accepts one argument.\n\nThe program will discard any arguments and continue.", "Note!");
@@ -39,7 +39,10 @@ namespace AFSBrowser {
             // If we get here, an unexpected error has occured. Message is displayed and prgram terminates.
             else {
                 MessageBox.Show("An unknown error has occured.\n\nPlease check the arguments passed to Emulate Assist and try again.", "Error!");
-            }
+            }*/
+			ISODisplay mainWindow = new ISODisplay();
+			mainWindow.ShowDialog();
+			mainWindow.Dispose();
         }
       
     }

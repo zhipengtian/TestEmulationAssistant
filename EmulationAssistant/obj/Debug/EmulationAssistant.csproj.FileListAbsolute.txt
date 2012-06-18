@@ -19,8 +19,7 @@ C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\bin\Debug\EmulationAs
 C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\bin\Debug\EmulationAssistant.pdb
 C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\bin\Debug\Interop.VixCOM.dll
 C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\AFSBrowser.ConfirmForm.resources
-C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\AFSBrowser.PathsForm.resources
 C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\EmulationAssistant.Properties.Resources.resources
 C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\ResGen.read.1.tlog
 C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\ResGen.write.1.tlog
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\EmulationAssistant.ISODisplay.resources
