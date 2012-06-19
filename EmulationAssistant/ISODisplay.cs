@@ -18,7 +18,11 @@ namespace EmulationAssistant
 
 		private void downloadXmlButton_Click(object sender, EventArgs e)
 		{
-
+			if (String.IsNullOrEmpty(XmlUrlBox.Text))
+			{
+				MessageBox.Show("Please enter a valid URL");
+				return;
+			}
 			while (CDDisplay.Rows.Count > 0)
 			{
 				CDDisplay.Rows.RemoveAt(0);
@@ -33,6 +37,13 @@ namespace EmulationAssistant
 
 		private void launchVM_Click(object sender, EventArgs e)
 		{
+			CDInfo cd;
+			if (CDDisplay.SelectedRows.Count == 0)
+			{
+				MessageBox.Show("Please select a product from the list on the right");
+				return;
+			}
+			cd = ((DataGridCDRow)CDDisplay.SelectedRows[0]).Cd;
 			VixWrapper vmware = new VixWrapper();
 			if (!vmware.Connect(null, null, null))
 			{
@@ -60,7 +71,7 @@ namespace EmulationAssistant
 
 	public class DataGridCDRow : DataGridViewRow
 	{
-		private CDInfo cd;
+		public CDInfo Cd;
 
 		public DataGridCDRow() : base() {}
 
@@ -71,7 +82,7 @@ namespace EmulationAssistant
 			this.Cells.Add(new DataGridCDCell(cd.Description));
 			this.Cells.Add(new DataGridCDCell(cd.Author));
 			this.Cells.Add(new DataGridCDCell(cd.Year));
-			this.cd = cd;
+			this.Cd = cd;
 		}
 	}
 

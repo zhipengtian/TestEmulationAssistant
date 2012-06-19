@@ -46,6 +46,8 @@
 			this.VMLocation = new System.Windows.Forms.Label();
 			this.VMLocationBox = new System.Windows.Forms.TextBox();
 			this.vmloc = new System.Windows.Forms.OpenFileDialog();
+			this.VMServerBox = new System.Windows.Forms.TextBox();
+			this.VMServer = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.CDDisplay)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
 			this.SuspendLayout();
@@ -190,7 +192,7 @@
 			// 
 			this.VMLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.VMLocation.AutoSize = true;
-			this.VMLocation.Location = new System.Drawing.Point(890, 203);
+			this.VMLocation.Location = new System.Drawing.Point(890, 245);
 			this.VMLocation.Name = "VMLocation";
 			this.VMLocation.Size = new System.Drawing.Size(124, 13);
 			this.VMLocation.TabIndex = 9;
@@ -199,17 +201,41 @@
 			// VMLocationBox
 			// 
 			this.VMLocationBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.VMLocationBox.Location = new System.Drawing.Point(890, 220);
+			this.VMLocationBox.Location = new System.Drawing.Point(890, 262);
 			this.VMLocationBox.Name = "VMLocationBox";
 			this.VMLocationBox.Size = new System.Drawing.Size(197, 20);
 			this.VMLocationBox.TabIndex = 10;
 			this.VMLocationBox.Click += new System.EventHandler(this.VMLocationBox_Click);
+			// 
+			// vmloc
+			// 
+			this.vmloc.Filter = "Virtual Machine Configuration File (*.vmx) | *.vmx";
+			// 
+			// VMServerBox
+			// 
+			this.VMServerBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.VMServerBox.Location = new System.Drawing.Point(887, 215);
+			this.VMServerBox.Name = "VMServerBox";
+			this.VMServerBox.Size = new System.Drawing.Size(197, 20);
+			this.VMServerBox.TabIndex = 12;
+			// 
+			// VMServer
+			// 
+			this.VMServer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.VMServer.AutoSize = true;
+			this.VMServer.Location = new System.Drawing.Point(887, 198);
+			this.VMServer.Name = "VMServer";
+			this.VMServer.Size = new System.Drawing.Size(147, 13);
+			this.VMServer.TabIndex = 11;
+			this.VMServer.Text = "VM Server (blank if unknown)";
 			// 
 			// ISODisplay
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1099, 625);
+			this.Controls.Add(this.VMServerBox);
+			this.Controls.Add(this.VMServer);
 			this.Controls.Add(this.VMLocationBox);
 			this.Controls.Add(this.VMLocation);
 			this.Controls.Add(this.launchVM);
@@ -250,5 +276,7 @@
 		private System.Windows.Forms.TextBox VMLocationBox;
 		private System.Windows.Forms.Label VMLocation;
 		private System.Windows.Forms.OpenFileDialog vmloc;
+		private System.Windows.Forms.TextBox VMServerBox;
+		private System.Windows.Forms.Label VMServer;
 	}
 }
