@@ -1,0 +1,34 @@
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\Interop.VixCOM.dll
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.csproj.ResolveComReference.cache
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\bin\Debug\EmulationAssistant.exe
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\bin\Debug\EmulationAssistant.pdb
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\bin\Debug\Interop.VixCOM.dll
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\AFSBrowser.ConfirmForm.resources
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\AFSBrowser.PathsForm.resources
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.Properties.Resources.resources
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\ResGen.read.1.tlog
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\ResGen.write.1.tlog
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.exe
+C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.pdb
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\Interop.VixCOM.dll
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\EmulationAssistant.csproj.ResolveComReference.cache
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\EmulationAssistant.exe
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\EmulationAssistant.pdb
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\bin\Debug\EmulationAssistant.exe
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\bin\Debug\EmulationAssistant.pdb
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\bin\Debug\Interop.VixCOM.dll
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\EmulationAssistant.Properties.Resources.resources
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\ResGen.read.1.tlog
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\ResGen.write.1.tlog
+C:\Users\gwatt\code\Emulation Assistant\EmulationAssistant\obj\Debug\EmulationAssistant.ISODisplay.resources
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.exe
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.pdb
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\bin\Debug\EmulationAssistant.exe
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\bin\Debug\EmulationAssistant.pdb
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.ISODisplay.resources
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.Properties.Resources.resources
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\ResGen.read.1.tlog
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\ResGen.write.1.tlog

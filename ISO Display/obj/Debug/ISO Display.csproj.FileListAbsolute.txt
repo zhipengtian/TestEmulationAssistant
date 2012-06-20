@@ -1,0 +1,9 @@
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\bin\Debug\ISO Display.exe
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\bin\Debug\ISO Display.pdb
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\obj\Debug\EmulationAssistant.ISODisplay.resources
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\obj\Debug\ISODisplay.Properties.Resources.resources
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\obj\Debug\ResGen.read.1.tlog
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\obj\Debug\ResGen.write.1.tlog
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\obj\Debug\ISO Display.exe
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\ISO Display\obj\Debug\ISO Display.pdb

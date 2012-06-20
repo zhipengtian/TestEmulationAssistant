@@ -1,0 +1,9 @@
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\bin\Debug\EmulationAssistant.exe
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\bin\Debug\EmulationAssistant.pdb
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.ISODisplay.resources
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.Properties.Resources.resources
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\ResGen.read.1.tlog
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\ResGen.write.1.tlog
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.exe
+C:\Users\gwatt\code\Emulation Assistant (no-browser)\EmulationAssistant\obj\Debug\EmulationAssistant.pdb

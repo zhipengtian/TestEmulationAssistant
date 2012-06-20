@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmulationAssistant", "EmulationAssistant\EmulationAssistant.csproj", "{237A49F0-8CBD-45BC-907A-9035F46AAB72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISO Display", "ISO Display\ISO Display.csproj", "{237A49F0-8CBD-45BC-907A-9035F46AAB72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmulationAssistant", "Emulation Assistant\EmulationAssistant.csproj", "{387C5305-FD7F-4D1D-AEBC-EFAE84AD43B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{237A49F0-8CBD-45BC-907A-9035F46AAB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{237A49F0-8CBD-45BC-907A-9035F46AAB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{237A49F0-8CBD-45BC-907A-9035F46AAB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387C5305-FD7F-4D1D-AEBC-EFAE84AD43B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387C5305-FD7F-4D1D-AEBC-EFAE84AD43B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387C5305-FD7F-4D1D-AEBC-EFAE84AD43B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387C5305-FD7F-4D1D-AEBC-EFAE84AD43B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
