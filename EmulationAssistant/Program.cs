@@ -32,9 +32,19 @@ namespace AFSBrowser {
             // If length of args = 1, we have a web link and need to pass it through to the forms so
             // that PathsForm can start with a path to an .ISO location.
             else if(args.Length == 1) {
-                PathsForm pathsForm = new PathsForm(args[0].ToString());
-                pathsForm.ShowDialog();
-                pathsForm.Dispose();
+                string pathInput = args[0].ToString();
+                if (pathInput.Length > 10 && pathInput.Substring(0, 10) == "emulation:")
+                {
+                    PathsForm pathsForm = new PathsForm(pathInput.Substring(10, pathInput.Length-10));
+                    pathsForm.ShowDialog();
+                    pathsForm.Dispose();
+                }
+                else
+                {
+                    PathsForm pathsForm = new PathsForm(pathInput);
+                    pathsForm.ShowDialog();
+                    pathsForm.Dispose();
+                }
             }
             // If we get here, an unexpected error has occured. Message is displayed and prgram terminates.
             else {

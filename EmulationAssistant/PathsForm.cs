@@ -50,7 +50,7 @@ namespace AFSBrowser {
 
         public void SetPassword(string password) {
             this.pass = password;
-            this.pass = "Informatics2011";
+            //this.pass = "Informatics2011";
         }
 
         //-------------------------------------------------------------
@@ -360,12 +360,12 @@ namespace AFSBrowser {
                     this.txtStatusBar.Text = "Installing the programs that are required to utilize this .ISO image. . .";  // Update status bar.
                     
                     /*
-                     * If the autoit script doens't complete successfully the program cannot be stopped.
+                     * If the autoit script doesn't complete successfully the program cannot be stopped.
                      */
-                    vix.RunProgram(Path.Combine(this.vmDesk, Path.GetFileName(this.installScriptPath)), "", out result); // Run install script in the virtual machine.
-                    MessageBox.Show("Result 1 = " + result);
-                    vix.RunProgram("C:\\Program Files\\PuTTY\\putty.exe", "", out result);
-                    MessageBox.Show("Result 2 = " + result);
+                    vix.RunProgram(Path.Combine(this.vmDesk, Path.GetFileName(this.installScriptPath)), "",  out result); // Run install script in the virtual machine.
+                    //MessageBox.Show("Result 1 = " + result);
+                    //vix.RunProgram("C:\\Program Files\\PuTTY\\putty.exe", "", out result);
+                    //MessageBox.Show("Result 2 = " + result);
                     //vix.RunProgram("C:\\Program Files\\Adobe\\Reader 10.0\\Reader\\AcroRd32.exe", "D:\\1st_page.pdf", out result);
 
                     this.txtStatusBar.Text = "Finishing up. . ."; // Update status bar.

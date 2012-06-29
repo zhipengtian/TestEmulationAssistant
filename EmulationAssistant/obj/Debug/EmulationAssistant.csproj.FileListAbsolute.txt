@@ -11,3 +11,29 @@ C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAss
 C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\ResGen.write.1.tlog
 C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.exe
 C:\Users\info\Desktop\Emulation Assistant - Copy\EmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.pdb
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\Interop.VixCOM.dll
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.csproj.ResolveComReference.cache
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.exe
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.pdb
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\bin\Debug\EmulationAssistant.exe
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\bin\Debug\EmulationAssistant.pdb
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\bin\Debug\Interop.VixCOM.dll
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\AFSBrowser.ConfirmForm.resources
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\AFSBrowser.PathsForm.resources
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\EmulationAssistant.Properties.Resources.resources
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\ResGen.read.1.tlog
+C:\Users\TZP\Desktop\TestEmulationAssistant\EmulationAssistant\obj\Debug\ResGen.write.1.tlog
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\Interop.VixCOM.dll
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\EmulationAssistant.csproj.ResolveComReference.cache
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\EmulationAssistant.exe
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\EmulationAssistant.pdb
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\bin\Debug\EmulationAssistant.exe
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\bin\Debug\EmulationAssistant.pdb
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\bin\Debug\Interop.VixCOM.dll
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\AFSBrowser.ConfirmForm.resources
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\AFSBrowser.PathsForm.resources
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\EmulationAssistant.Properties.Resources.resources
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\ResGen.read.1.tlog
+C:\Users\TZP\Desktop\TestEmulationAssistantfuck\EmulationAssistant\obj\Debug\ResGen.write.1.tlog

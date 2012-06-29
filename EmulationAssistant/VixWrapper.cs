@@ -41,12 +41,12 @@ namespace AFSBrowser {
         /// <returns>true if succeeded, otherwise false</returns>
         public bool Connect(string hostName, string userName, string password, int serviceProvider) {
             int hostType = -1;
-
             System.Net.IPAddress[] IParray = {};
 
             // Edited by Mitchell Lutz
             if(serviceProvider == 1) {
                 hostType = VixCOM.Constants.VIX_SERVICEPROVIDER_VMWARE_WORKSTATION;
+                userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
          
             }
             else if(serviceProvider == 2) {
